@@ -8,7 +8,7 @@ export default class SearchBar extends Component {
     };
   }
 
-  onInputChange = event => {
+  handleChange = event => {
     this.setState({
       value: event.target.value,
     });
@@ -17,7 +17,7 @@ export default class SearchBar extends Component {
   render() {
     return (
       <div>
-        <input value={this.state.value} onChange={this.onInputChange} />
+        <input value={this.state.value} onChange={this.handleChange} />
       </div>
     );
   }
