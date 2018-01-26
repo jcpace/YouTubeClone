@@ -1,8 +1,20 @@
+
+# IntelliJ
+*.iml
+/.idea
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+npm-debug.log*
+
 node_modules
 bundle.js
 npm-debug.log
 .DS_Store
 
-# IntelliJ
-*.iml
-/.idea
