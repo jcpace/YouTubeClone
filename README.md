@@ -1,5 +1,9 @@
-A YouTube clone in React / Redux
+# A YouTube clone in React 
 
-... in progress
+## Usage
+1. Make sure that Node.js is installed.
+2. Run 'NPM install'
+3. Run 'NPM start'
+
 
 
